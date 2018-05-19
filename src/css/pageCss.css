@@ -1,0 +1,33 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 100vh;
+}
+
+.wrapper {
+	flex: 1;
+	max-width: 50%;
+	border: 1px solid #000;
+	background: #00ffff;
+}
+
+.place {
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 15px;
+}
+
+.degrees {
+	padding-bottom: 15px;
+}
+
+.image {
+	padding-bottom: 15px;
+}
+
+.description {
+	padding-bottom: 15px;
+	text-transform: capitalize;
+}
